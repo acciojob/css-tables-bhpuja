@@ -1,39 +1,45 @@
-/*  your css code here. If applicable */
 /* General Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 /* Table Styling */
-.styled-table {
-    width: 60%;
+table {
+    width: 80%;
     border-collapse: collapse;
     margin: 20px 0;
     background-color: #fff;
 }
 
-.styled-table th, .styled-table td {
+/* Table Headers and Cells Styling */
+th, td {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 0.5rem;
     text-align: center;
 }
 
-.styled-table th {
+/* Header Row Background */
+th {
     background-color: #f4f4f4;
     color: #333;
 }
 
-.styled-table tbody tr:nth-child(odd) {
+/* Odd Row Background */
+tr:nth-child(odd) {
     background-color: #f2f2f2;
 }
 
-.styled-table tbody tr:nth-child(even) {
+/* Even Row Background */
+tr:nth-child(even) {
     background-color: #ffffff;
 }
+
+
